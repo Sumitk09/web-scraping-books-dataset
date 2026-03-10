@@ -1,0 +1,6 @@
+
+from extracting_meaningful_information import items
+
+import pandas as pd
+df = pd.DataFrame(items, columns=["Title","Price","Star Rating","Stock Availablity"])
+df
